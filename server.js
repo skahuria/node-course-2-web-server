@@ -35,9 +35,9 @@ app.get('/about', (req, res) =>{
   });
 });
 
-app.get('/projects', (req, res) =>{
-  res.render('projects.hbs', {
-    pageTitle: 'Projects',
+app.get('/branches', (req, res) =>{
+  res.render('branches.hbs', {
+    pageTitle: 'Branch Network',
   });
 });
 
